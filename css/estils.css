@@ -1,0 +1,482 @@
+body {
+    font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	background-color: rgb(244,244,244);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+/*
+#section1 {
+
+    background-image: url("../img/bg-hero-home.jpg");
+	height: 600px;
+}
+*/
+
+h1 {
+	color: rgb(255,255,255);
+	
+}
+
+.tituloS1  {
+	font-weight: 625;
+	height: 300px;
+}
+
+
+.caja {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+}
+
+
+/*
+.box img{
+	width: 100%;
+	height: auto;
+	
+  }
+
+
+  @supports(object-fit: cover){
+    .box img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+*/
+
+
+#center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	width: 25%;
+	min-height: 15rem;
+/*	background-color: #0F0; */
+  }
+
+
+
+/* Diseño para celulares */
+#columna1, #columna2, #columna3, .columnav1, .columnav2 {
+	float:none;
+	width:100%;
+}
+
+/*
+@import url(medias/mobile.css) (max-width: 799px);
+*/
+/*
+@import url(mobile.css);
+*/
+
+.titular{
+	font-size: 36px;
+	font-weight: 800;
+}
+
+
+.section {
+
+	text-align: center;
+
+}
+
+@media screen and (max-width: 799px) {
+
+	
+
+	
+	.box {
+		width: 100%;
+		height: 75px;
+		background-image: URL("../img/bg-hero-home.jpg");
+	}
+	h1 {
+		font-size: 18px;
+	}
+
+	.img{
+		margin:0px auto;
+		border-radius:5px;
+		border: 1px solid #999;
+	
+		width:100%;
+		height:75px;
+		background-size: 100% 100%;
+		background-repeat:no-repeat;
+		background:url(../img/bg-hero-home.jpg);
+		background-size: cover;
+		
+		}
+	
+		nav ul {
+			/* display: inline;  */
+			text-align: center;
+		}
+
+		.txtLabel {
+			font-weight: 800;
+			font-size: 12px;
+		}
+	
+		.txtP {
+			font-size: 12px;
+		}
+
+		.txtButllati {
+			margin: 0 100px 0 100px;
+			text-align: justify;
+			font-size: 8px;;
+		}
+}
+
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2, .columnav1, .columnav2 {
+		float:left;
+		width:50%;
+	}
+	.box {
+		width: 100%;
+		height: 150px;
+		background-image: URL("../img/bg-hero-home.jpg");
+	}
+
+	h1 {
+		font-size: 36px;
+		padding-left: 125px;
+
+	}
+
+	.img{
+		margin:0px auto;
+		border-radius:5px;
+		border: 1px solid #999;
+	
+		width:100%;
+		height:150px;
+		background-size: 100% 100%;
+		background-repeat:no-repeat;
+		background:url(../img/bg-hero-home.jpg);
+		background-size: cover;
+		
+		}
+		li {
+			display: inline;
+		  }
+		  
+
+
+		  nav ul {
+
+			text-align: center;
+		}
+
+		.txtLabel {
+			font-weight: 800;
+			font-size: 24px;
+		}
+	
+		.txtP {
+			font-size: 12px;
+		}
+
+
+		.txtButllati {
+
+			margin: 0 300px 0 300px;
+			text-align: justify;
+			font-size: 8px;;
+		}
+
+}
+
+/* Diseño para PC */ 
+
+@media screen and (min-width: 1025px) {
+	#columna1, #columna2, #columna3 {
+	float:left;
+	width:33%;
+}
+
+ .columnav1, .columnav2 {
+	 float:left;
+	width:50%;
+}
+
+.box {
+	width: 100%;
+	height:300px;
+	background-image: URL("../img/bg-hero-home.jpg");
+}
+
+h1 {
+	font-size: 72px;
+	padding-left: 250px;
+}
+.img{
+	margin:0px auto;
+	border-radius:5px;
+	border: 1px solid #999;
+
+	width:100%;
+	height:300px;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background:url(../img/bg-hero-home.jpg);
+	background-size: cover;
+	
+	}
+	nav ul {
+		text-align: left;
+	}
+	li {
+		display: inline;
+	  }
+
+
+	  .txtLabel {
+		font-weight: 800;
+		font-size: 36px;
+	}
+
+
+	.seccion2 {
+		padding-left: 250px;
+		padding-right: 250px;
+	
+	}
+
+	.section {
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+
+	.sectionS {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+.txtP {
+	font-size: 24px;
+}
+
+input {
+	width: 300px;
+	height: 25px;
+	
+	/*
+	padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;;
+  line-height:140%;
+  */
+}
+
+
+.txtButllati {
+	margin: 0 700px 0 700px;
+	text-align: justify;
+	font-size: 12px;;
+}
+/*
+footer nav ul li {
+	margin-right: 35px;
+}
+*/
+footer {
+	padding-left: 350px;
+	
+}
+
+.footer {
+	height: 150px;
+	padding-top: 50px; 
+}
+
+
+iframe {
+	width: 500px;
+	height: 300px;
+}
+
+
+.desplazarDivSimtomes {
+/*
+	margin-left: 150px;
+	margin-right: 150p;
+	*/
+}
+
+
+.txtSimptomes {
+	float: left; 
+	margin-left: 25px;
+}
+
+
+.footerPages {
+	padding-left: 250px;
+}
+
+.cop26 {
+	width: 50%; 
+	text-align: justify; 
+	margin: 0 auto;
+}
+
+
+.cop262{
+	width: 75%; 
+	text-align: justify; 
+	margin: 0 auto;
+}
+
+}
+
+/* ------- END SCREEN PC ----------- */
+
+nav ul li a {
+	text-decoration: none;
+    color:rgb(0, 0, 0);	
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+    color:rgba(0, 0, 0, 0.5);	
+}
+
+.pagActual {
+	color:rgb(189, 55, 0);
+}
+
+p {
+	text-align: left;
+}
+.imgNoticies {
+	width: 50%;
+	height: 50%;
+}
+
+.columnes {
+
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.txtDataNoticia {
+	font-size: 12px;
+}
+
+.txtTitulNoticia {
+	color: rgb(189,55,0);
+	font-weight: 400;
+}
+
+.txtNoticia {
+	font-size: 12px;
+}
+
+p a {
+	color: rgb(189,55,0);
+	text-decoration: none;
+	border-style: none none dotted none;
+	
+}
+
+p a:hover {
+	color:rgb(0, 0, 0);
+}
+
+.noDotted {
+	border-style: none none none none;
+}
+
+.butlleti {
+	width: 100%;
+	background-color: rgb(242,232,228);
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+input {
+	display: block;
+	margin: 0 auto;
+	text-align: left;
+
+}
+
+.noneBorde {
+	border: none;
+}
+
+
+footer {
+	
+	background-color: rgb(0,0,0);
+	color: rgb(155,155,155);
+	
+}
+
+footer nav ul li a {
+	color: rgb(155,155,155);
+}
+
+footer nav ul li a:hover {
+	color: rgb(189, 55, 0);
+}
+
+.footer {
+	font-size: 12px;
+}
+
+footer div a:hover {
+opacity: 0.7;
+
+}
+
+.pagina {
+    color: rgb(189, 55,0);
+}
+
+a label {
+	color: rgb(0,0,0);
+	text-decoration: none;
+	
+}
+
+a label:hover {
+	color: rgba(0,0,0,0.5);
+}
+
+
+.imgSimptomes {
+	max-width: 75%;
+	max-height: 75%;
+}
+
+.label {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+
+ol li {
+
+	display: list-item;
+	list-style-position: inside;
+	margin-top: 25px;
+  }
